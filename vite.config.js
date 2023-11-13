@@ -12,7 +12,7 @@ export default defineConfig ({
             input: {
                 main: resolve(__dirname,'src/index.html'),
                 about: resolve(__dirname, 'src/pages/about/index.html'),
-                contact: resolve(__dirname, 'src/pages/contact/index.html'),
+                hits: resolve(__dirname, 'src/pages/hits/index.html'),
             }
         }
     }
