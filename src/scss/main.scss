@@ -1,0 +1,13 @@
+.banner{
+    background-image: url(../assets/image/home/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+}
+.description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.8rem;
+    gap: 1rem
+}
