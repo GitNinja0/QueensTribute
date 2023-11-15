@@ -1,0 +1,24 @@
+.H1_Hits{
+    text-align: center;
+    font-size: 3rem;
+}
+.section_Hits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.article-hits_dics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.hits_image{
+    width: 30rem;
+    height: auto;
+}
+.h2_hits{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
+}

@@ -1,2 +1,4 @@
 @use './scss/General/normalize.scss';
-@use './scss/header.scss'
+@use './scss/General/globals.scss';
+@use './scss/header.scss';
+@use './scss/main.scss';
