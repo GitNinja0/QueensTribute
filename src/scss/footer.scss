@@ -1,4 +1,4 @@
-@use './General/variables.scss' as v;
+@use './general-attributes/variables.scss' as v;
 
 #footer {
 
@@ -11,13 +11,14 @@
 
    img {
 
-        height: 60%;
+        height: 100%;
         padding: 10px;
 
    }
 
    p {
         margin-left: 10px;
+        font-size: 15px;
    }
 
     .rrss {
