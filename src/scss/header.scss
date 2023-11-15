@@ -1,0 +1,26 @@
+@use './General/variables.scss' as v;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=M+PLUS+Rounded+1c&family=Nanum+Gothic&family=Quicksand&display=swap');
+
+
+header {
+
+    img {
+        width: 10%;
+        height: 10%;
+        margin-right: 100px;
+    }
+
+    h3 {
+        margin-right: 70px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    background-color: v.$black;
+    color: v.$whithe;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
