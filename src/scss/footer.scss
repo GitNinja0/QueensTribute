@@ -1,0 +1,28 @@
+@use './General/variables.scss' as v;
+
+#footer {
+
+    background-color: v.$gray_ligth;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+   img {
+
+        height: 60%;
+        padding: 10px;
+
+   }
+
+   p {
+        margin-left: 10px;
+   }
+
+    .rrss {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}
