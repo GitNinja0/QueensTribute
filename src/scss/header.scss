@@ -4,6 +4,26 @@
 
 header {
 
+    a {
+        text-decoration: none; 
+        color: white; 
+      }
+      
+      a:visited {
+        text-decoration: none; 
+        color: white; 
+      }
+      
+      a:hover {
+        text-decoration: none; 
+        color: #9D3D77;
+      }
+      
+      a:active {
+        text-decoration: none; 
+        color: white;
+      }
+
     img {
         width: 10%;
         height: 10%;
