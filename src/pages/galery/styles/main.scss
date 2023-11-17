@@ -1,0 +1,74 @@
+@use '../../../scss/general-attributes/variables.scss' as v;
+
+
+.h1_Galery{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.galery{
+    // position: fixed;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 1.5rem;
+}
+.galery{
+    .galery_Image{
+        cursor: pointer;
+    }
+}
+.galery_Image{
+    width: 40rem;
+    height: 30rem;
+}
+#image_active{
+    width: 100%;
+    height: auto;
+}
+#principal_Container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: 0.65);
+}
+.intern_Container{
+    height: 40rem;
+    width: 50rem;
+    border: #f3f3f3;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #f3f3f3;
+}
+#btn-close{
+    position: absolute;
+    top: 100;
+    right: 0;
+    font-size: 3rem;
+}
+#btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 3rem;
+}
+#btn-rigth{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 3rem;
+}
