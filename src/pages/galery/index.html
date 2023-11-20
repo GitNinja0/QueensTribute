@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galeria</title>
     <link rel="stylesheet" href="styles/style.scss">
 </head>
 <body>
-    
+    <main>
+        <h1 class="h1_Galery">Galeria</h1>
+        <section class="galery">
+            <img class="galery_Image" src="../../assets/image/galery/image_1.jpg" alt="image galery 1">
+            <img class="galery_Image" src="../../assets/image/galery/image_2.jpg" alt="image galery 2">
+            <img class="galery_Image" src="../../assets/image/galery/image_3.webp" alt="image galery 3">
+            <img class="galery_Image" src="../../assets/image/galery/image_4.jpg" alt="image galery 4">
+            <img class="galery_Image" src="../../assets/image/galery/image_5.jpg" alt="image galery 5">
+            <img class="galery_Image" src="../../assets/image/galery/image_6.jpeg" alt="image galery 6">
+            <img class="galery_Image" src="../../assets/image/galery/image_7.jpeg" alt="image galery 7">
+            <img class="galery_Image" src="../../assets/image/galery/image_8.jpeg" alt="image galery 8">
+            <img class="galery_Image" src="../../assets/image/galery/image_9.webp" alt="image galery 9">
+        </section>
+        <section id="principal_Container">
+            <div class="intern_Container">
+                <img id="image_active" src="../../assets/image/galery/image_1.jpg" alt="image active">   
+                <button id="btn-close" type="button">X</button>
+                <button id="btn-left" type="button">&lt;</button>
+                <button id="btn-rigth" type="button">&gt;</button>     
+            </div>
+        </section>
+    </main>
+
+    <script src="./galery.ts"></script>
 </body>
 </html>
