@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=M+PLUS+Rounded+1c&family=Nanum+Gothic&family=Quicksand&display=swap');
+
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;/*10px = 1rem*/
@@ -5,3 +8,15 @@ html{
 *, *::before, *::after{
     box-sizing: inherit;
 } 
+h1, h2, h3{
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2.2rem;
+}
