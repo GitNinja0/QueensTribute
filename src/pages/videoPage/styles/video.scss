@@ -1,3 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=M+PLUS+Rounded+1c&family=Nanum+Gothic&family=Quicksand&display=swap');
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.videoContainer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+    position: relative;
+    min-height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+
+    .video {
+        height: 300px;
+        width: 500px;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.7);
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: .2s linear;
+    }
+
+    iframe:hover {
+        transform: scale(1.1);
+    }
+}
+
 
