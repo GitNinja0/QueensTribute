@@ -53,4 +53,4 @@ npm run preview
 
 ## Authors
 - [@verosampedro](https://github.com/verosampedro)
-- [@Gitninja)](https://github.com/GitNinja0)
+- [@Gitninja0](https://github.com/GitNinja0)
