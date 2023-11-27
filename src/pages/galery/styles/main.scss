@@ -14,6 +14,16 @@
     justify-items: center;
     row-gap: 1.5rem;
 }
+@media (max-width: 1250px) {
+    .galery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .galery{
+        grid-template-columns: 1fr;
+    }
+}
 .galery{
     .galery_Image{
         cursor: pointer;

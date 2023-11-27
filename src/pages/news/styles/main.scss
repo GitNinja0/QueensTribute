@@ -7,6 +7,11 @@
         font-size: 2.5rem;
     }
 }
+@media (max-width: 768px) {
+    .news{
+        grid-template-columns: 1fr;
+    }
+}
 .image_relevant{
     height: 30rem;
     width: 80%;
@@ -19,7 +24,7 @@ h1{
     font-size: 3rem;
 }
 p{
-    font-size: 0.938vw;
+    font-size: 1.8rem;
     width: 90%;
 }
 .h1_news{
@@ -34,7 +39,8 @@ p{
     align-items: center;
 }
 .secundary_news{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 1rem;
     gap: 1rem;
 }
@@ -47,6 +53,11 @@ p{
     display: grid;
     justify-items: center;
     border: 1px black solid;
+}
+@media (max-width: 550px) {
+    .secundary_news{
+        grid-template-columns: 1fr;
+    }
 }
 .h1_last-news{
     text-align: center;

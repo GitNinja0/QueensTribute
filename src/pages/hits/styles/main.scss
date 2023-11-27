@@ -22,3 +22,28 @@
 p{
     font-size: 1.5rem;
 }
+
+
+@media (max-width: 768px) {
+    
+    .section_Hits {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        p {
+            margin-right: 50px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-right: 50px;
+        }
+    }
+
+   .hits_image {
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 10px;
+   }
+}

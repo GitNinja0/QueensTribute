@@ -27,3 +27,12 @@
         flex-direction: row;
     }
 }
+
+@media (max-width: 550px) {
+    #footer {
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
