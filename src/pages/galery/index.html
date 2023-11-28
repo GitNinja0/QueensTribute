@@ -9,18 +9,23 @@
 <body>
 
     <header>
-
-        <h3><a href="../../index.html">INICIO</a></h3>
-        <h3><a href="../hits/index.html">ÉXITOS</a></h3>
-        <h3><a href="../videoPage/index.html">VÍDEOS</a></h3>
-        <h3><a href="./index.html">GALERÍA</a></h3>
-    
-        <img src="../../assets/image/logo/logo.png" alt="">
-    
-        <h3><a href="../news/index.html">NOTICIAS</a></h3>
-        <h3><a href="../contact/index.html">CONTACTO</a></h3>
-        <h3>IDIOMA</h3>
-    
+        <nav>
+          <ul class='nav-bar'>
+            <li class='logo'><a href='#'><img src='./assets/image/logo/logo.png'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+              <li><a href="../../index.html">INICIO</a></li>
+              <li><a href="../hits/index.html">ÉXITOS</a></li>
+              <li><a href="../videoPage/index.html">VÍDEOS</a></li>
+              <li><a href="./index.html">GALERÍA</a></li>
+              <li><a href="../news/index.html">NOTICIAS</a></li>
+              <li><a href="../contact/index.html">CONTACTO</a></li>
+              <li><a href="">IDIOMA</a></li>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+        </nav>
       </header>
 
     <main>
