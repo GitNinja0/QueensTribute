@@ -2,56 +2,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&family=M+PLUS+Rounded+1c&family=Nanum+Gothic&family=Quicksand&display=swap');
 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 header {
+  background-color: v.$black;
+}
 
-    a {
-        text-decoration: none; 
-        color: white; 
-      }
-      
-      a:visited {
-        text-decoration: none; 
-        color: white; 
-      }
-      
-      a:hover {
-        text-decoration: none; 
-        color: #9D3D77;
-      }
-      
-      a:active {
-        text-decoration: none; 
-        color: white;
-      }
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  background-color: var(--color2);
+  padding: 12px 20px;
+}
 
-    img {
-        width: 10%;
-        height: 10%;
-        margin-right: 100px;
-    }
+.logo img {
+  width: 15%;
+}
 
-    h3 {
-        margin-right: 70px;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 1.3rem;
-    }
+.menu {
+  display: flex;
+}
 
-    background-color: v.$black;
-    color: v.$whithe;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.menu li {
+  padding-left: 30px;
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.menu li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.15s ease-in-out;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color1);
+  transition: 0.15s ease-in-out;
+}
+
+.menu li a:hover:after {
+  width: 100%;
+}
+
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: var(--color1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+
+#check {
+  display: none;
+}
+
+
+
+@media(max-width: 610px) {
+  .menu {
+    flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: v.$black;
+    transition: all 0.2s ease-in-out;
+  }
 
-@media (max-width: 768px) {
-  
-  
-}
+  .menu li {
+    margin-top: 40px;
+  }
 
+  .menu li a {
+    padding: 10px;
+  }
 
-@media (max-width: 550px) {
-  
+  .open-menu,
+  .close-menu {
+    display: block;
+    color: white;
+  }
+
+  #check:checked~.menu {
+    right: 0;
+  }
 }
