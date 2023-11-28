@@ -1,0 +1,31 @@
+{
+    "Most-Relevant-News": [
+    {
+        "title":"Queen + Adam Lambert + Fórmula 1",
+        "url": "../../../assets/image/news/queen-news-f1.jpg",
+        "description": "Sábado 21 de octubre, Queen + Adam Lambert harán vibrar el evento posterior a la carrera, durante el fin de semana del Gran Premio de Fórmula 1 en el Circuito De Las Américas en Austin, Texas!"
+    }, 
+    {
+        "title":"Sheer Heart Attack: 49 años después...",
+        "url": "../../../assets/image/news/SHA.jpg",
+        "description": "El 8 de noviembre de 1974, Queen dio un gran paso adelante en su camino hacia convertirse en una de las bandas de rock de élite en Gran Bretaña. Esa fecha marcó el lanzamiento de su tercer álbum, Sheer Heart Attack, que se acercaría a la cima de la lista de ventas en el Reino Unido y les daría su primera entrada, a través de Elektra Records, a los 20 Principales en los Estados Unidos."
+    },
+    {
+        "title":"MACHINES (OR BACK TO HUMANS) - Nuevo Sencillo Digital",
+        "url": "../../../assets/image/news/MACHINES digital cover revise copy.jpg",
+        "description": "Una emocionante colisión de sonido e imágenes considerada como “una clase magistral” por USA Today, el espectáculo Rhapsody de Queen y Adam Lambert comienza con el vibrante ritmo industrial y las armonías vocales de Machines (or Back To Humans), una nueva reelaboración de la pista favorita de culto que abrió la segunda cara del álbum The Works en 1984. Mientras una puesta en escena inmersiva transporta al público a un mundo distópico de engranajes giratorios y pistones sibilantes, un batallón de robots CGI marcha a través de las pantallas de video gigantes al son de Machines y mira a la multitud con implacables ojos infernales, solo para ser vencidos con la ayuda de una voz virtual de Freddie; la banda luego se lanza a una Radio Ga Ga llena de tecno pero altamente humana, que inicia una montaña rusa de más de dos horas por el catálogo de la banda."
+    }    
+    ],
+    "Last-News" : [
+        {
+            "title":"Mira: Queen The Greatest Live: Una especie de magia (Episodio 39)",
+            "url": "../../../assets/image/news/QTG s2 ep 39 clean.jpg",
+            "description": "Queen The Greatest Live. La serie The Greatest regresa con una celebración de un año de Queen en vivo."
+        }, 
+        {
+            "title":"Bohemian Rhapsody - 48 años después...",
+            "url": "../../../assets/image/news/bohemian-rhapsody.jpg",
+            "description": " “Recuerdo que Freddie llegó con un montón de trozos de papel del trabajo de su padre, como notas adhesivas, golpeando el piano…” - Brian May"
+        }
+    ]
+}
