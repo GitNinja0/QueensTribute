@@ -25,8 +25,8 @@ main {
         -webkit-backdrop-filter: blur(8.8px);
         border: 1px solid rgba(255, 255, 255, 0.72);
         width: 50%;
-        margin-left: 47rem;
         margin-bottom: 229px;
+        margin-left: 25%;
 
       form {
         width: 100%; 
@@ -97,4 +97,12 @@ main {
     }
   }
 
+}
+
+@media (max-width: 550px) {
+
+  section {
+    margin-left: 10rem;
+    width: 100%;
+  }
 }
