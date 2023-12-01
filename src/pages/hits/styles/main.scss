@@ -11,6 +11,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    align-items: center;
+    margin-bottom: 2.7%;
+    margin-left: 15px;
+    margin-right: 25px;
 }
 .hits_image{
     width: 30rem;
